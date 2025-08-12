@@ -4,8 +4,8 @@ This is the Django backend that handles payment processing via Stripe. It provid
 
 ---
 #This is a one-time payment system.
-# did not use authentication
-#i used webhook
+#did not use authentication.
+#i used webhook.
 #i also used ngrok to run the program from another pc.
 ## Local Setup Instructions
 
