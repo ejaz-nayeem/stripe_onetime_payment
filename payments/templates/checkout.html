@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Buy our Test Product</h1>
+    <form action="{% url 'checkout' %}" method="POST">
+        {% csrf_token %}
+        <button type="submit">Checkout</button>
+    </form>
+</body>
+</html>
